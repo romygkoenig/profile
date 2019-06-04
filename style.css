@@ -1,0 +1,112 @@
+body {
+  color: #F0A202;
+  background-image: url("images/plank.jpg");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  text-align: center
+}
+
+  #profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+h1 {
+  color: #2D3142;
+  font-size: 32px;
+  font-family: 'Monoton', cursive;
+  line-height: 1.4
+}
+
+h2 {
+  color: #655356;
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+  line-height: 1.4
+}
+
+p {
+  color: #6B0504;
+  display: block;
+  text-align: center
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  color: #2D3142;
+  font-size: 20px
+  text-decoration: overline
+}
+
+
+.card-white {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 2px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+}
+
+.button {
+  background-color: #A69CAC;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.list-inline li a {
+  color: rgb(30,30,30);
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.list-inline li a:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
