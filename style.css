@@ -12,6 +12,12 @@ body {
     border-radius: 50%
 }
 
+  #family-pic {
+    width: 350px;
+    height: 190px;
+    border-radius: 7%
+  }
+
 h1 {
   color: #2D3142;
   font-size: 32px;
