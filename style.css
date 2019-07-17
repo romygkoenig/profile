@@ -1,15 +1,17 @@
 body {
   color: #F0A202;
-  background-image: url("images/plank.jpg");
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
+ /* background-image: url("images/sunset.jpg");*/
+ background: rgb(200,201,233);
+background: linear-gradient(180deg, rgba(200,201,233,1) 19%, rgba(159,165,205,1) 48%, rgba(127,137,183,1) 80%, rgba(86,101,154,1) 100%);
+ font-family: 'Roboto', sans-serif;
   text-align: center
 }
 
   #profile-pic {
     width: 100px;
     height: 100px;
-    border-radius: 50%
+    border-radius: 50%;
+
 }
 
   #family-pic {
@@ -19,21 +21,35 @@ body {
   }
 
 h1 {
-  color: #2D3142;
-  font-size: 32px;
-  font-family: 'Monoton', cursive;
-  line-height: 1.4
+  color: white;
+  font-size: 50px;
+  font-family: 'Hammersmith One', sans-serif;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.bar {
+  margin-top: 0;
+  color: white;
+}
+
+.title {
+  color: white;
 }
 
 h2 {
-  color: #655356;
+  color: grey;
   font-size: 24px;
   font-family: 'Exo 2', sans-serif;
   line-height: 1.4
 }
 
 p {
-  color: #6B0504;
+  color: grey;
   display: block;
   text-align: center
   font-family: 'Exo 2', sans-serif;
@@ -50,12 +66,19 @@ ul {
   text-decoration: overline
 }
 
+#project-photo {
+  height: 250px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 8px;
+}
+
 
 .card-white {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
-  width: 70%;
+  width: 60%;
   margin: 15px auto;
   border-radius: 2px;
   box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
@@ -116,3 +139,6 @@ ul {
   }
 }
 
+.contact {
+  margin: 5px;
+}
